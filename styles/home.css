@@ -1,0 +1,116 @@
+/*landing*/
+.landing-hero{
+    background-image: url("../images/cinema-time-cineworld.gif");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-hero h1 {
+    text-shadow: 2px 2px 8px #1f0c0c98;
+}
+
+.landing-hero h3 {
+    text-shadow: 2px 2px 8px #1f0c0c98;
+}
+
+.landing-container {
+    padding-top: 40vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.moto-logo {
+    color: aliceblue;
+    font-size: 50px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 30px;
+    
+}
+
+.moto {
+    font-size: 40px;
+}
+/*********************************/
+/*************introduct**********/
+.sec-movie-list {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sec-movieL2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.movie-list-head {
+    height: 50px;
+    border-bottom: solid 1px;
+    margin-bottom: 20px;
+}
+
+.movie-grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.movie {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.movie img{
+    width: 100%;
+}
+
+.movie-list-bottom {
+    margin-top: 50px;
+    justify-content: center;
+    padding-top: 100px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+/**********************************/
+.The-times {
+    display: flex;
+    width: 100%;
+    margin-left: -3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    border: solid ;
+}
+.The-times.open {
+    display: block;
+    position: relative;
+}
+.times {
+    padding-bottom: 5px;
+}
+
+.times aside {
+    margin-bottom: 10px;
+}
+.times-container {
+    border-radius: 5px;
+}
+.time {
+    display: flex;
+    justify-content: space-evenly;   
+}
+.times p {
+    background-color: rgb(255, 255, 255);
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 10px;
+}
+
+
+
+/**********************************/
+/**********************************/
